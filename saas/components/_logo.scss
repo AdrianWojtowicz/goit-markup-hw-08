@@ -1,0 +1,16 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000;
+
+    &__web {
+    color: var(--main-color);
+    }
+
+    &__studio--footer {
+        color: #FFF;
+    }
+}
