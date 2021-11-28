@@ -1,7 +1,23 @@
 .menu {
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    height: 60px;
 }
+
+.mobile-menu-icon {
+    fill: #000;
+    margin: 284px;
+
+    &:hover {
+        fill: var(--main-color);
+        cursor: pointer;
+    }
+}
+
+// @media screen and (min-width: 768px) {
+//     .menu {
+//         height: 80px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-wrap: nowrap;
+//     }
+// }
