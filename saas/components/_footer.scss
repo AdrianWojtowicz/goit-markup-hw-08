@@ -1,13 +1,27 @@
 .foot {
-    height: 252px;
+    height: 603px;
     background: #2F303A;
 }
 
 .footer {
-    width: 1200px;
-    height: 252px;
-    padding-left: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: flex;
+    width: 100%;
+    height: 603px;
+    padding: 60px 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .foot {
+        height: 252px;
+    }
+
+    .footer {
+        width: 1200px;
+        height: 252px;
+        padding-left: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        text-align: left;
+    }
 }

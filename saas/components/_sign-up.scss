@@ -1,8 +1,6 @@
 .sign-up {
-    width: 570px;
-    height: 86px;
-    margin-top: 12px;
-    margin-left: 78px;
+    height: 156px;
+    margin: 60px auto;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.1;
@@ -12,11 +10,10 @@
 }
 
 .newsletter {
-    display: flex;
     margin-top: 20px;
 
     &__email {
-        width: 358px;
+        width: 100%;
         height: 50px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         background-color: transparent;
@@ -38,7 +35,7 @@
         color: #fff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        margin-left: 12px;
+        margin: 20px auto;
         display: flex;
         align-items: center;
         padding: 10px;
@@ -47,6 +44,28 @@
         &--icon-send {
             fill: #fff;
             margin-left: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sign-up {
+        width: 570px;
+        height: 86px;
+        margin-top: 12px;
+        margin-left: 78px;
+    }
+
+    .newsletter {
+        display: flex;
+
+        &__email {
+            width: 358px;
+        }
+
+        &__button {
+            margin: 0;
+            margin-left: 12px;
         }
     }
 }
