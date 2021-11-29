@@ -11,7 +11,7 @@
         align-items: center;
 
         &__agency, 
-        &__agency--active{
+        &__agency--active {
             font-weight: 500;
             font-size: 14px;
             letter-spacing: 0.02em;
@@ -85,4 +85,66 @@
             }
         }
     }
+}
+
+.nav-mobile {
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__agency, 
+        &__agency--active {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 1.175;
+            letter-spacing: 0.02em;
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &__agency:hover, 
+        &__agency:focus {
+            color: var(--main-color);
+        }
+
+        &__agency--active {
+            color: var(--main-color);
+        }
+
+        &__portfolio, 
+        &__portfolio--active {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 1.175;
+            letter-spacing: 0.02em;
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &__portfolio--active {
+            color: var(--main-color);
+        }
+
+        &__portfolio:hover,
+        &__portfolio:focus {
+            color: var(--main-color);
+        }
+        
+        &__contact {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 1.175;
+            letter-spacing: 0.02em;
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover,
+            &:focus {
+                color: var(--main-color);
+                cursor: pointer;
+            }
+        }
 }
