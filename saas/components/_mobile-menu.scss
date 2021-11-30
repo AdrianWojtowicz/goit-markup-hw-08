@@ -13,6 +13,14 @@
     height: 100%;
     background-color: #fff;
     padding: 48px 40px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.social-mobile-menu {
+    max-width: 357px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
 }
