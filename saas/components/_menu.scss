@@ -24,11 +24,23 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1199px) {
+    .menu {
+        height: 80px;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    .menu-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     .menu {
         height: 80px;
         justify-content: center;
         flex-wrap: nowrap;
+        align-items: center;
     }
     .menu-mobile {
         display: none;

@@ -38,7 +38,13 @@
         fill: #fff;
     }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .join-us-footer {
+        margin-left: 144px;
+        margin-top: 5px;
+    }
+    
+}
 @media screen and (min-width: 1200px) {
     .join-us-footer {
         margin-top: 12px;

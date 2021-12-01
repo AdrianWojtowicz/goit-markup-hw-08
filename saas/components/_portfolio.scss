@@ -55,7 +55,6 @@ button,
     width: 100%;
     list-style: none;
     padding: 0px;
-    
 }
 
 .portfolio-projects-container {
@@ -123,6 +122,33 @@ button,
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .portfolio-buttons {
+        width: 645px;
+        display: flex;
+        justify-content: space-between;
+
+        &__button {
+            margin: 0;
+        }
+    }
+
+    .portfolio-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .portfolio-projects-container {
+        width: 354px;
+        height: 404px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
 }
 
 

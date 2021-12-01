@@ -67,6 +67,37 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .team {
+        height: 1286px;
+    }
+
+    .our-team {
+        &__table {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+
+        &__table-box {
+            width: 354px;
+            height: 536px;
+            margin-bottom: 30px;
+
+            &:not(:first-child) {
+                margin-top: 0;
+            }
+            & img {
+                width: 354px;
+                height: auto;
+            }
+        }
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
     .team {
